@@ -1,0 +1,21 @@
+.page-hero{background:var(--cream);text-align:center;padding:48px var(--pad-x)}
+.page-hero small{font-size:11px;letter-spacing:1.6px;color:var(--brown);font-weight:600}
+.page-hero h1{font-family:var(--serif);font-weight:500;font-size:40px;margin:8px 0}
+.page-hero p{color:var(--muted);font-size:15px}
+
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.value{background:#faf4ee;border-radius:10px;padding:26px 22px;color:var(--brown)}
+.value h3{font-family:var(--serif);font-weight:500;font-size:19px;color:var(--text);margin:14px 0 8px}
+.value p{font-size:13px;color:var(--muted);line-height:1.7}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.contact-info p{display:flex;gap:14px;align-items:flex-start;margin-top:18px;color:var(--muted);line-height:1.6;font-size:15px}
+.contact-info svg{color:var(--brown);flex:none;margin-top:4px}
+.contact .sec-title{margin-bottom:6px}
+.form{display:flex;flex-direction:column;gap:12px}
+.form input,.form select,.form textarea{padding:13px;border:1px solid var(--border);border-radius:4px;font-family:var(--sans);font-size:14px;width:100%;background:#fff}
+.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--brown);outline-offset:-1px}
+
+.notfound{text-align:center}
+.notfound h1{font-family:var(--serif);font-size:64px;font-weight:500}
+.notfound p{color:var(--muted);margin:8px 0 22px}

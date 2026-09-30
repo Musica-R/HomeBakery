@@ -1,0 +1,15 @@
+:root {
+  --brown: #8b4a1f;
+  --brown-dark: #6f3a16;
+  --cream: #fbf1e8;
+  --cream-2: #f7e9dc;
+  --pink: #f6d9d3;
+  --text: #2b1d14;
+  --muted: #6b5a4e;
+  --border: #eadfd5;
+  --gold: #e0a030;
+  --wa: #25d366;
+  --serif: "Playfair Display", Georgia, serif;
+  --sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --pad-x: 40px;
+}

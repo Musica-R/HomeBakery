@@ -1,0 +1,533 @@
+/* ===== 1024px (small laptops / tablets landscape) ===== */
+@media (max-width:1024px) {
+  :root {
+    --pad-x: 30px
+  }
+
+  .nav-links {
+    gap: 16px
+  }
+
+  .nav-cta {
+    padding: 10px 14px
+  }
+
+  .hero h1 {
+    font-size: 44px
+  }
+
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 18px
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr)
+  }
+
+  .review-grid {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .values {
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .about-home {
+    gap: 32px
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+  }
+
+  .f-brand {
+    grid-column: 1/-1
+  }
+
+  .price-grid {
+    gap: 18px
+  }
+
+  .price-card {
+    padding: 24px
+  }
+}
+
+/* ===== 768px (tablets portrait) ===== */
+@media (max-width:768px) {
+  :root {
+    --pad-x: 24px
+  }
+
+  .hide-sm {
+    display: none
+  }
+
+  .topbar {
+    justify-content: center
+  }
+
+  .navbar {
+    padding: 12px var(--pad-x)
+  }
+
+  .burger {
+    display: block
+  }
+
+  .nav-cta {
+    display: none
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px var(--pad-x) 20px;
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, .08)
+  }
+
+  .nav-links.open {
+    display: flex
+  }
+
+  .nav-links a:not(.btn) {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px
+  }
+
+  .nav-links a.active::after {
+    display: none
+  }
+
+  .nav-cta-mobile {
+    display: inline-flex !important;
+    margin-top: 16px
+  }
+
+  .hero {
+    grid-template-columns: 1fr
+  }
+
+  .hero-text {
+    padding: 40px var(--pad-x) 32px;
+    text-align: center
+  }
+
+  .hero .eyebrow {
+    justify-content: center
+  }
+
+  .hero-sub {
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .hero-btns {
+    justify-content: center
+  }
+
+  .hero-img {
+    min-height: 320px;
+    order: 2
+  }
+
+  .hero h1 {
+    font-size: 40px
+  }
+
+  .section {
+    padding: 36px var(--pad-x)
+  }
+
+  .sec-title {
+    font-size: 26px
+  }
+
+  .tiles {
+    gap: 14px
+  }
+
+  .tile-label h3 {
+    font-size: 22px
+  }
+
+  .tile-label {
+    left: 16px;
+    bottom: 16px
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px
+  }
+
+  .about-home {
+    grid-template-columns: 1fr
+  }
+
+  .about-text {
+    text-align: center
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 36px
+  }
+
+  .cta {
+    flex-direction: column;
+    text-align: center
+  }
+
+  .page-hero {
+    padding: 38px var(--pad-x)
+  }
+
+  .page-hero h1 {
+    font-size: 34px
+  }
+
+  .price-grid {
+    grid-template-columns: 1fr
+  }
+}
+
+/* ===== 420px (large phones) ===== */
+@media (max-width:420px) {
+  :root {
+    --pad-x: 16px
+  }
+
+  .hide-xs {
+    display: none
+  }
+
+  .brand img {
+    width: 32px;
+    height: 32px
+  }
+
+  .brand b {
+    font-size: 19px
+  }
+
+  .brand small {
+    font-size: 7px;
+    letter-spacing: 1.8px
+  }
+
+  .hero-text {
+    padding: 30px var(--pad-x) 26px
+  }
+
+  .hero h1 {
+    font-size: 32px
+  }
+
+  .hero-sub {
+    font-size: 14px
+  }
+
+  .hero-btns {
+    flex-direction: column;
+    gap: 10px
+  }
+
+  .hero-btns .btn {
+    width: 100%
+  }
+
+  .hero-img {
+    min-height: 250px
+  }
+
+  .seal {
+    width: 88px;
+    height: 88px;
+    right: 14px;
+    bottom: 14px;
+    font-size: 9px
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 12px;
+    padding: 18px var(--pad-x)
+  }
+
+  .feature {
+    gap: 8px
+  }
+
+  .feature svg {
+    width: 22px;
+    height: 22px
+  }
+
+  .feature b {
+    font-size: 9px
+  }
+
+  .feature small {
+    font-size: 10px
+  }
+
+  .feature:last-child {
+    grid-column: 1/-1;
+    justify-content: center
+  }
+
+  .section {
+    padding: 30px var(--pad-x)
+  }
+
+  .section-title {
+    font-size: 13px;
+    margin-bottom: 24px
+  }
+
+  .sec-title {
+    font-size: 22px
+  }
+
+  .tiles {
+    grid-template-columns: 1fr
+  }
+
+  .tile {
+    aspect-ratio: 16/10
+  }
+
+  .sec-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px
+  }
+
+  .grid {
+    gap: 10px
+  }
+
+  .pbody {
+    padding: 10px 10px 12px
+  }
+
+  .pname {
+    font-size: 14px
+  }
+
+  .pprice {
+    font-size: 13px;
+    margin-bottom: 6px
+  }
+
+  .pbody .btn {
+    padding: 9px 8px;
+    font-size: 10px;
+    letter-spacing: .6px
+  }
+
+  .review-grid {
+    grid-template-columns: 1fr
+  }
+
+  .review {
+    padding: 20px
+  }
+
+  .values {
+    grid-template-columns: 1fr
+  }
+
+  .faq-q {
+    padding: 15px 14px;
+    font-size: 14px
+  }
+
+  .faq-a {
+    padding: 0 14px 16px;
+    font-size: 13px
+  }
+
+  .cta h3 {
+    font-size: 22px
+  }
+
+  .cta {
+    padding: 30px var(--pad-x)
+  }
+
+  .cta .btn {
+    width: 100%
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    padding: 30px var(--pad-x)
+  }
+
+  .wa-float {
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
+    right: 14px;
+    bottom: 14px
+  }
+
+  .page-hero h1 {
+    font-size: 28px
+  }
+
+  .page-hero p {
+    font-size: 14px
+  }
+
+  .price-card {
+    padding: 18px 16px
+  }
+
+  .price-head h3 {
+    font-size: 19px
+  }
+
+  .price-row {
+    grid-template-columns: 1fr 58px 58px;
+    gap: 6px;
+    padding: 11px 0;
+    font-size: 13px
+  }
+
+  .price-name {
+    font-size: 14px
+  }
+}
+
+/* ===== 350px (small phones) ===== */
+@media (max-width:350px) {
+  :root {
+    --pad-x: 12px
+  }
+
+  .brand {
+    gap: 6px
+  }
+
+  .brand img {
+    width: 28px;
+    height: 28px
+  }
+
+  .brand b {
+    font-size: 16px
+  }
+
+  .brand small {
+    display: none
+  }
+
+  .topbar {
+    font-size: 10px;
+    padding: 8px 10px
+  }
+
+  .hero h1 {
+    font-size: 27px
+  }
+
+  .hero-sub {
+    font-size: 13px
+  }
+
+  .hero-img {
+    min-height: 210px
+  }
+
+  .seal {
+    display: none
+  }
+
+  .btn {
+    padding: 12px 16px;
+    font-size: 10px
+  }
+
+  .grid {
+    grid-template-columns: 1fr
+  }
+
+  .pimg {
+    aspect-ratio: 4/3
+  }
+
+  .pname {
+    font-size: 16px
+  }
+
+  .pprice {
+    font-size: 14px
+  }
+
+  .features {
+    grid-template-columns: 1fr
+  }
+
+  .feature:last-child {
+    grid-column: auto;
+    justify-content: flex-start
+  }
+
+  .tile-label h3 {
+    font-size: 19px
+  }
+
+  .sec-title {
+    font-size: 20px
+  }
+
+  .review figcaption div {
+    min-width: 0
+  }
+
+  .stars {
+    width: 100%
+  }
+
+  .cta h3 {
+    font-size: 20px
+  }
+
+  .page-hero h1 {
+    font-size: 25px
+  }
+
+  .price-card {
+    padding: 16px 12px
+  }
+
+  .price-icon {
+    width: 38px;
+    height: 38px
+  }
+
+  .price-row {
+    grid-template-columns: 1fr 52px 52px;
+    font-size: 12px
+  }
+
+  .price-name {
+    font-size: 13px
+  }
+}
+
+
